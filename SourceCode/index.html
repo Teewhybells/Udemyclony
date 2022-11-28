@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
     <title>Online courses-Learn Anything, On Yours Schedule | Udemy </title>
-    <style type = "text/css">
+     <style type = "text/css">
     body {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
@@ -140,6 +141,16 @@
 .course-section > p {
     
     font-size: 22px;
+}
+
+.category-flex {
+    display:flex;
+    flex-direction: row;
+    gap:25px;
+    margin-top:0px 0px 25px ;
+    padding: 0px 0px 0px 8px;
+  
+
 }
 
 .course-flex {
@@ -375,8 +386,8 @@ a#a7:hover {
         color:black
     }
     .course-video-box {
-        width:98%;
-        height:600px;
+        width:99%;
+        height:630px;
         border:1px solid grey;
         margin-top:5%;
         
@@ -448,8 +459,13 @@ a#a7:hover {
     @media only screen and (min-width:600px) {
         
     }
+    .courses{
+        font-size: 16px;
+        color: purple;
+        font-weight: bold;
+    }
     
-    </style>
+    </style> 
 </head>
 <body>
   
@@ -574,6 +590,35 @@ a#a7:hover {
             
 
 
+        </div>
+
+        <div>
+            <h2>Featured topics by category</h2>
+            <div class="category-flex">
+                <h2>Development</h2>
+                <h2>Business</h2>
+                <h2>IT & Software</h2>
+                <h2>Design</h2>
+            
+                
+            </div>
+            <div>
+                <div>
+                    <a href="https://www.udemy.com/topic/python/" class="Courses">Python</a>
+                    <div>
+                        36,000 Students
+                    </div>
+
+                    <a href="https://www.udemy.com/topic/python/" class="Courses">Financial Analysis</a>
+                    <div>
+                        46,000 Students
+                    </div>
+
+                </div>
+
+               
+
+            </div>
         </div>
 
 
